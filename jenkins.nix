@@ -2,6 +2,6 @@
 }:
 pkgs.dockerTools.buildLayeredImage {
     name = "nix-jenkins";
-    tag = "v1.0.1";
+    tag = "latest";
     contents = [pkgs.jenkins];
 }
